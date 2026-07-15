@@ -1,0 +1,37 @@
+{
+  "posts_per_day": 15,
+  "timezone": "Asia/Kolkata",
+  "active_hours_start": 7,
+  "active_hours_end": 23,
+  "epsilon": 0.2,
+  "no_repeat_similarity": 0.62,
+  "angles": [
+    "practical_tip",
+    "bold_claim",
+    "mini_story",
+    "question_to_audience",
+    "myth_buster",
+    "behind_the_scenes",
+    "before_after",
+    "listicle_micro",
+    "contrarian_take",
+    "social_proof_demo"
+  ],
+  "auto_reply": {
+    "enabled": true,
+    "trigger_keywords": [
+      "auto",
+      "link",
+      "guide",
+      "blueprint"
+    ],
+    "max_replies_per_run": 8,
+    "max_replies_per_day": 80,
+    "lookback_posts": 15,
+    "engagement_replies": {
+      "enabled": false,
+      "probability": 0.25,
+      "max_per_run": 3
+    }
+  }
+}
